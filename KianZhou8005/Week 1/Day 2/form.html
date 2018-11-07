@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <style>
+    ul{
+            list-style-type:none;
+            margin:0px;
+            padding:0px;
+        }
+    </style>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Interesting application form</legend>
+                <fieldset>
+                    <legend>What is your name?</legend>
+                    <input type ="text" id="name" name="name"/>
+                </fieldset>
+                <fieldset>
+                    <legend>What is your favorite color?</legend>
+                    <ul>
+                        <li>
+                            <input type ="checkbox" value="Red" id="red" name="color"/>
+                            <label for="red">Red</label>
+                        </li>
+                        <li>
+                            <input type ="checkbox" value="Grenn" id="green" name="color"/>
+                            <label for="green">Green</label>
+                        </li>
+                        <li>
+                            <input type ="checkbox" value="Blue" id="blue" name="color"/>
+                            <label for="blue">Blue</label>
+                        </li>
+                        <li>
+                            <input type ="checkbox" value="Other" id="other" name="color"/>
+                            <label for="other">Other</label>
+                            <input type ="text" id="othertext" name="othertext"/>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                     <legend>Would you like to become a developer?</legend>
+                     <ul>
+                        <li>
+                            <input type="radio" id="yes" name="answer" value="yes" />
+                            <label for="yes">Yes</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="ano" name="answer" value="ano" />
+                            <label for="huey">Ano</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="lgen" name="answer" value="lgen" />
+                            <label for="huey">Huey</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="shi" name="answer" value="shi" />
+                            <label for="shi">是</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Why would you like to become a developer?</legend>
+                    <textarea cols="30" rows="10" id="textarea"></textarea>                 
+                </fieldset>
+                <input type="button" value="Submit">
+
+            </fieldset>
+        </form>
+
+
+    </body>
+</html>

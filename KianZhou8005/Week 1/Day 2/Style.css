@@ -1,0 +1,34 @@
+.center {
+  text-align:center;
+}
+#Navi{
+  font-family:Nanum Gothic;
+  background:#333333;
+}
+#Navi img{
+ float:left;
+ padding:0.5% 0px 0.5% 10%; 
+}
+#Navi ul{
+  padding:1% 0px 1% 70%;
+  margin: auto;
+}
+#Navi li,a{
+  text-decoration: none;
+  list-style-type:none;
+  display:inline;
+  padding:10px;
+  color:#ff0099;
+}
+#text {
+   
+    font-family: courier;
+    background-image��url(background.jpg);
+    padding: 10%;
+}
+h1,h2,h3{
+   font-family: sans-serif;
+}
+#subtitle{
+  color:#ff0099;
+}
